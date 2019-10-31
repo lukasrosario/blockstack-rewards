@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
   Person,
 } from 'blockstack';
-import Business from './person_obj';
+import Business from './GaiaHandler';
 import Reward from './Reward.js';
 import ScanQR from './ScanQR.js';
 
