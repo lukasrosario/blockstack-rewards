@@ -1,0 +1,193 @@
+/* Globals */
+a,a:focus,a:hover{color:#fff;}
+html,body{height:100%;background-color:#F4F4FC;}
+body{color:#3700FF;text-align:center;}
+.hide{display:none;}
+.landing-heading{font-family:'Source Code Pro',monospace;font-weight:400;}
+
+/* Buttons */
+.btn{font-family:'Source Code Pro',monospace;padding:0.5625rem 2.5rem;font-size:0.8125rem;font-weight:400;line-height:1.75rem;border-radius:0!important;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn-lg{font-size:0.875rem;padding:0.6875rem 3.4375rem;line-height:1.75rem;}
+.btn:focus,.btn:active:focus,.btn.active:focus{outline:none;}
+.btn-primary{background-color:#3700FF;border:1px solid #3700FF;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{color:#fff;border:1px solid #270F34;background-color:#270F34;}
+.navbar{background-color:#3700FF !important;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
+
+/* Avatar */
+.avatar{width:100px;height:100px;}
+.avatar-section{margin-bottom:25px;}
+
+/* Scaffolding */
+.site-wrapper{display:table;width:100%;height:95% !important;min-height:90vh !important;}
+.site-wrapper-inner{display:flex;flex-direction:column;justify-content:center;margin-right:auto;margin-left:auto;width:100%;height:95%;}
+.panel-authed{padding:0 0 0 0;}
+
+/* Home button */
+.btn-home-hello{position:absolute;font-family:'Source Code Pro',monospace;font-size:11px;font-weight:400;color:rgba(255,255,255,0.85);top:15px;left:15px;padding:3px 20px;background-color:rgba(255,255,255,0.15);border-radius:6px;-webkit-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);-moz-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);}
+
+/* Input */
+input, textarea{color:#000;}
+input, textarea{color:#000;}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-container {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.reward-view {
+  display: block;
+  background: #DFE6E9;
+  width: 25%;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #636E72;
+  border-radius: 5px;
+}
+
+.reward-view:hover {
+  background: #B2BEC3;
+  transform: scale(1.1);
+}
+
+.add-button {
+  margin-top: 2%;
+  font-size: 108px;
+}
+
+.reward-title {
+  color: #3700FF;
+  font-family:'Source Code Pro',monospace;
+  font-size: 32px;
+}
+
+#signout-button {
+  font-size: 24px;
+}
+
+.scan-button {
+  display: block;
+  margin-top: 15px;
+  background: #DFE6E9;
+  width: 15%;
+  height: 15%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid #636E72;
+  border-radius: 5px;
+}
+
+.scan-button:hover {
+  background: #B2BEC3;
+  transform: scale(1.1);
+}
+
+.scan-icon {
+  margin-top: 7%;
+  font-size: 32px;
+}
+
+.scan-text {
+  color: #3700FF;
+  font-family:'Source Code Pro',monospace;
+  font-size: 24px;
+}
+
+.scannerContainer {
+  width: 30%
+}
+
+.scannerBanner {
+  width: 100%;
+  background: #DFE6E9;
+  height: 50px;
+  justify-content: center;
+  border: 1px solid #636E72;
+}
+
+.stopScan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  height: 100%;
+  width: 100px;
+}
+
+.scanning-text {
+  display: inline;
+  color: #3700FF;
+  font-family:'Source Code Pro',monospace;
+  font-size: 24px;
+  margin-left: 16px;
+  align-items: baseline;
+}
+
+.stopScanIcon {
+  display: flex;
+  float: right;
+  color: #f44336;
+  font-size: 48px;
+}
+
+.stopScanIcon:hover {
+  transform: scale(1.1);
+}
+
+.reward-label {
+  color: #3700FF;
+  font-family:'Source Code Pro',monospace;
+  font-size: 16px;
+}
+
+.reward-input {
+  display: block;
+  width: 50;
+}
+
+.add-confirm {
+  display: block;
+  margin-top: 5px;
+  font-family:'Source Code Pro',monospace;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color: #3700FF;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputs {
+  margin-top: 10px;
+}
+
+.reward-active {
+  color: #3700FF;
+  font-family:'Source Code Pro',monospace;
+  font-size: 32px;
+}
+
+.active-container {
+  margin-top: 20px;
+}
