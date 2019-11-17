@@ -38,7 +38,7 @@ export default class Business {
 			rewards = this.user.getFile("/rewards.json", {decrypt: true}); 
 		delete rewards[rewardName];
 		let localRewards = JSON.parse(rewards); 
-		localRrewards.push(updatedReward); 
+		localRewards.push(updatedReward); 
 		this.user.putFile("/rewards.json", JSON.stringify(localRewards), {encrypt: true});
 	}
 
